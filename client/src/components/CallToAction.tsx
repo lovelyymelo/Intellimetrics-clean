@@ -1,3 +1,5 @@
+import { Button } from "@/components/ui/button";
+
 export default function CallToAction() {
   return (
     <div className="bg-primary text-white py-12 px-4 text-center rounded-2xl shadow-md my-10">
@@ -7,9 +9,9 @@ export default function CallToAction() {
       <p className="text-lg mb-6">
         Experience how IntelliMetrics unifies your operations into one intelligent platform.
       </p>
-      <button className="bg-white text-primary font-semibold px-6 py-3 rounded-lg shadow-lg hover:bg-gray-100 transition">
+      <Button variant="secondary" size="lg">
         Try IntelliMetrics Now
-      </button>
+      </Button>
     </div>
   );
 }

@@ -1,3 +1,5 @@
+import { Button } from "@/components/ui/button";
+
 export default function Hero() {
   return (
     <section className="text-center py-20 px-4 bg-gradient-to-b from-background to-muted">
@@ -7,9 +9,9 @@ export default function Hero() {
       <p className="text-xl text-muted-foreground max-w-xl mx-auto mb-6">
         IntelliMetrics brings all your business tools into one AI-powered dashboard — built to scale, adapt, and empower.
       </p>
-      <button className="bg-primary text-white text-lg font-semibold px-6 py-3 rounded-lg hover:bg-primary/80 transition">
+      <Button size="lg" className="text-lg">
         Get Started
-      </button>
+      </Button>
     </section>
   );
 }
